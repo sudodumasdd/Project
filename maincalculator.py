@@ -1,3 +1,33 @@
+# This program implements a simple calculator that allows the user to perform 
+# basic arithmetic operations: addition, subtraction, multiplication, and division.
+# 
+# The program works by presenting a menu of operations to the user, then 
+# getting their choice and two numbers. It then performs the calculation based 
+# on the chosen operation and prints the result.
+# 
+# The program includes error handling to prevent crashes due to invalid input 
+# (such as letters instead of numbers) or division by zero.
+# 
+# The user can exit the calculator by choosing the "Exit" option from the menu.
+# 
+# Here's a breakdown of the code's main steps:
+# 
+# 1. Present a menu of operations: Add, Subtract, Multiply, Divide, Exit
+# 2. Get the user's choice (1-5).
+# 3. If the choice is 1-4:
+#   - Get the first number.
+#   - Get the second number.
+# 4. Perform the calculation based on the choice:
+#   - If choice is 1: Add the numbers.
+#   - If choice is 2: Subtract the numbers.
+#   - If choice is 3: Multiply the numbers.
+#   - If choice is 4: Divide the numbers (checking for division by zero).
+# 5. Print the result of the calculation.
+# 6. If the choice is 5:
+#   - Exit the program.
+# 7. If the choice is invalid:
+#   - Print an error message and repeat the process.
+
 #Select operation
 while True:
   print("Select operation:")
