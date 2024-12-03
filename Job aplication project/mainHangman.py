@@ -2,7 +2,7 @@ import random
 
 def get_word():
   """Choose a random word from a list."""
-  words = ["python", "programming", "computer", "science", "skibidi", "sigma", "robot", "robotics", "crash", "fathom", "purple", "fathom" "fathom", "fathom", "fathom", "fathom", "fathom", "fathom", "fathom", "fathom", "fathom", "fathom", "fathom", "fathom", "fathom", "fathom", "fathom", "fathom", "fathom", "fathom", "fathom", "fathom", "fathom", "fathom", "fathom", "fathom", "fathom" "fathom", "fathom", "fathom", "fathom", "fathom"]
+  words = ["python", "programming", "computer", "science", "skibidi", "sigma", "robot", "robotics", "crash", "fathom", "purple", "fathom" "fathom", "fathom", "fathom", "fathom", "fathom", "fathom", "fathom", "fathom", "fathom", "fathom", "fathom", "fathom", "fathom", "fathom", "fathom", "fathom", "fathom", "fathom", "fathom", "fathom", "fathom", "fathom", "fathom", "fathom", "fathom" "fathom", "fathom", "fathom", "fathom", "fathom", "fathom", "fathom", "fathom", "fathom", "fathom", "fathom", "fathom", "fathom", "fathom", "fathom", "robot", "robotics", "crash", "fathom", "purple", "fathom"]
   return random.choice(words)
 
 def play_hangman():
@@ -12,7 +12,7 @@ def play_hangman():
   alphabet = set(chr(x) for x in range(ord('a'), ord('z') + 1))  # All letters
   used_letters = set()  # What the user has guessed
 
-  lives = 6
+  lives = 7
 
   # Getting user input
   while len(word_letters) > 0 and lives > 0:
