@@ -2,7 +2,7 @@ import random
 
 def get_word():
   """Choose a random word from a list."""
-  words = ["python", "programming", "computer", "science", "skibidi", "sigma", "robot", "robotics", "crash"]
+  words = ["python", "programming", "computer", "science", "skibidi", "sigma", "robot", "robotics", "crash", "fathom"]
   return random.choice(words)
 
 def play_hangman():
