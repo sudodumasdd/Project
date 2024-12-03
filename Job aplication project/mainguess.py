@@ -29,7 +29,3 @@ while guesses < 8:
 #after 8 guesses prints the number and ends the game
 if guesses == 8:
     print("You ran out of guesses. The number was", x)
-
-#Notes
-#1. At first i had the variable type wrong so i could not do the operations
-#2. At first i was trying to use loops for the grading of the guesses
